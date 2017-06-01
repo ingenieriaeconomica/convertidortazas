@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pagina Principal</title>
+    <title>Pagina tasas </title>
     <!-- Versión compilada y comprimida del CSS de Bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <!-- Tema opcional -->
