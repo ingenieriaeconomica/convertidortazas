@@ -39,7 +39,7 @@
       
       <div class="col-md-12">
         <label>Valor de la taza a convertir</label><br>
-        <input type="text" name="valortasaconvertir" required clas="form-control">
+        <input type="text" name="valortasaconvertir" id="valor-convertir" required clas="form-control">
       </div>
 
 
@@ -65,21 +65,23 @@
         </fieldset>
         <div class="form-group">
           <label for="exampleSelect1">Seleccione el tipo de periodo que la tasa remunera</label>
-          <select class="form-control" id="exampleSelect1">
-            <option>Días</option>
-            <option>Meses</option>
-            <option>Bimestres</option>
-            <option>Trimestres</option>
-            <option>Semestres</option>
-            <option>Años</option>
+          <select class="form-control" id="select-periodo">
+            <option value="0">SELECCIONE</option>
+            <option value="1">Días</option>
+            <option value="2">Meses</option>
+            <option value="3">Bimestres</option>
+            <option value="4">Trimestres</option>
+            <option value="5">Semestres</option>
+            <option value="6">Años</option>
           </select>
         </div>
 
         <div class="form-group">
           <label for="exampleSelect1">Seleccione la forma de pago de interes</label>
-          <select class="form-control" id="exampleSelect1">
-            <option>Anticipado</option>
-            <option>Vencido</option>
+          <select class="form-control" id="select-forma-pago" onchange="ConvertirTasa(this)">
+            <option value="0">SELECCIONE</option>
+            <option value="1">Anticipado</option>
+            <option value="2">Vencido</option>
           </select>
         </div>
 
@@ -98,6 +100,10 @@
     <footer>
 
     </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <script src="./js/Convertidor.js"></script>
 
   </body>
 </html>
