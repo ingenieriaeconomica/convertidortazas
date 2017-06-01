@@ -19,7 +19,7 @@
   <body>
     <header>
       <div class="titlulo-cabecera">
-        <h1> Sistema de Gestion</h1>
+        <h1> Convertidor de tasas</h1>
       </div>
 
       <nav>
