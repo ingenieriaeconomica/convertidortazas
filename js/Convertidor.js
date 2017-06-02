@@ -3,8 +3,10 @@ $(function () {
 	
 });
 
-
-function ConvertirTasa(e){
+/*
+*Validar que hayan seleccionado campos
+*/
+function ValidarTasa(e){
 
 	var selecPeriodo = $("#select-periodo").val();
     var valorConvertir = parseFloat($("#valor-convertir").val());
@@ -20,14 +22,24 @@ function ConvertirTasa(e){
 		valorConvertir = (valorConvertir/100);
 	}
 
-    var base = (1 + valorConvertir);
+    ConvertirTasa();
+}
+
+
+
+/*
+*Convertir tasas
+*/
+function ConvertirTasa(){
+
+	var base = (1 + valorConvertir);
 
     var exponente = (360/30);
 
-	var ressultado = Math.pow(base, exponente);
+	var resultado = Math.pow(base, exponente);
 
-	ressultado = (ressultado - 1) * 100;
+	resultado = (resultado - 1) * 100;
 
-	alert(parseInt(ressultado));
+	alert(parseInt(resultado));
 
 }
