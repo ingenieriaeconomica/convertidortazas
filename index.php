@@ -151,13 +151,7 @@
         </div>
 
 
- 
-<!-- Indica una acción exitosa o positiva -->
-<button type="button" class="btn btn-success"  onclick="ValidarTasa()"  >Calcular</button>
 
-<!-- Muestra el botón de forma destacada para descubrir fácilmente
-     el botón principal dentro de un grupo de botones -->
-<button type="button" class="btn btn-primary" onclick="LimpiarCampos()" >Limpiar</button>
       </div>
 
         <div class="col-md-6">
