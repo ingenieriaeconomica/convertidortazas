@@ -3,6 +3,28 @@ $(function () {
 	
 });
 
+
+function LimpiarCampos(){
+	$("#select-periodo").val('0');
+    $("#valor-convertir").val('');
+    $("#select-forma-pago").val('0');
+    
+    if($("#nominal").is(':checked')){
+    	$("#nominal").prop('checked', false);
+    }
+    if($("#efectivo").is(':checked')){
+    	$("#efectivo").prop('checked', false);
+    }
+    if($("#periodico").is(':checked')){
+    	$("#periodico").prop('checked', false);
+    }
+
+
+
+    $("#optionsRadioTasa").prop('checked', false);
+}
+
+
 /*
 *Validar que hayan seleccionado campos
 */
