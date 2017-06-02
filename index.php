@@ -64,7 +64,7 @@
                 </label>
               </div>
       
-<<<<<<< HEAD
+
           </fieldset>
           <div class="form-group">
             <label for="exampleSelect1">Seleccione el tipo de periodo que la tasa remunera</label>
@@ -101,7 +101,7 @@
           <div class="col-md-9">
             
         <?php include_once('vistas/convertidor/tabla.php'); ?>
-=======
+
       <div class="col-md-12">
         <label>Valor de la taza a convertir</label><br>
         <input type="text" name="valortasaconvertir" id="valor-convertir" required clas="form-control">
@@ -163,7 +163,7 @@
         <div class="col-md-6">
           
 
->>>>>>> fee88d2bbfa259734bf19b30e25bde1c1848b4a7
+
 
 
         </div>
@@ -177,11 +177,11 @@
     <!-- Le javascript
     ================================================== -->
     <script src="./js/Convertidor.js"></script>
-<<<<<<< HEAD
+
     <script src="./js/convertidor-v1.js"></script>
-=======
+
     <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
->>>>>>> fee88d2bbfa259734bf19b30e25bde1c1848b4a7
+
 
   </body>
 </html>
