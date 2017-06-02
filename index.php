@@ -44,21 +44,21 @@
 
 
       <div class="col-md-6">
-         <fieldset class="form-group">
+         <fieldset class="form-group" >
             <legend>Seleccione el tipo de tasa</legend>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="nominal" checked>Nominal
+                <input type="radio" class="form-check-input" name="optionsRadios" id="nominal" value="1" >Nominal
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="anual" checked>Efectivo
+                <input type="radio" class="form-check-input" name="optionsRadios" id="efectivo" value="2" >Efectivo
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>Periodico
+                <input type="radio" class="form-check-input" name="optionsRadios" id="periodico" value="3" >Periodico
               </label>
             </div>
     
@@ -88,7 +88,7 @@
 
  
 <!-- Indica una acción exitosa o positiva -->
-<button type="button" class="btn btn-success" onclick="ValidarTasa()" >Calcular</button>
+<button type="button" class="btn btn-success"  onclick="ValidarTasa()"  >Calcular</button>
 
 <!-- Muestra el botón de forma destacada para descubrir fácilmente
      el botón principal dentro de un grupo de botones -->
@@ -111,6 +111,7 @@
     <!-- Le javascript
     ================================================== -->
     <script src="./js/Convertidor.js"></script>
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
 
   </body>
 </html>
