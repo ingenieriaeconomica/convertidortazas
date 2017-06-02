@@ -6,7 +6,7 @@ $(function () {
 /*
 *Validar que hayan seleccionado campos
 */
-function ValidarTasa(e){
+function ValidarTasa(){
 
 	var selecPeriodo = $("#select-periodo").val();
     var valorConvertir = parseFloat($("#valor-convertir").val());
